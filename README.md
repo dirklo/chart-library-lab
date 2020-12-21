@@ -63,7 +63,7 @@ the genre class will have a `.select_or_create_by_name` method so the song class
 
 ## Chart Class:
 
-Charts are single files that have an instrument and belong to an arrangement.  They are initialized with a `@file` valiable for the filepath, and an `@inst` variable for the instrument string.
+Charts are single files that have an instrument and belong to an arrangement.  They are initialized with a `@file` variable for the filepath, and an `@inst` variable for the instrument string.
 
 Charts will have an `#arrangement=` method to set the arrangement it belongs to.  This should not allow for duplicated in the arrangement's chart list.
 
