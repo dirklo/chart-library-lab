@@ -21,7 +21,7 @@ The song class will also have a @@all class variable initialized to an empty str
 
 ## Artist Class:
 
-Upon initialization, artists objects will take in a name string as an argument, and set it as it's own `@name` variable.  They will also initialize a `@songs` local variable, set to an empty array, to keep track of that artist's song list.
+Upon initialization, artists objects will take in a name string as an argument, and set it as it's own `@name` variable.  They will also initialize a `@songs` instance variable, set to an empty array, to keep track of that artist's song list.
 
 The `#song_titles` method will return an array of this artists song titles
 
