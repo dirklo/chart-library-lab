@@ -37,7 +37,7 @@ The arranger is the author of a particular arrangement.  Arrangers will have man
 
 Arranger objects will have an `@arrangements` variable, initialized to an empty array to keep track of all the arranger's arrangements.  
 
-The `#add_arrangements` method should raise an `AssociationTypeMismatchError` error if anything but an arrangement object is passed.  If the arrangement object is not already present in the `@arrangements` array, it should add it. 
+The `#add_arrangement` method should raise an `AssociationTypeMismatchError` error if anything but an arrangement object is passed.  If the arrangement object is not already present in the `@arrangements` array, it should add it. 
 
 This class will also have a `.select_or_create_by_name` method that will be used when assigning an arranger to an arrangement.
 
