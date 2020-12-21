@@ -11,7 +11,7 @@ The Song class will be the primary hub for the remaining classes.
 
 When initialized, a song object will take in a title string as an argument, set it to it's `@title` instance variable and create `@genres` and `@arrangements` variables, both set to empty strings.
 
-the `#artist=` setter method will be able to take in either an artist object or a string, and either set `@artist` to the passed object, an object founding using the string to search for it, or create a new artist object and set it to the `@artist` variable.  
+the `#artist=` setter method will be able to take in either an artist object or a string, and either set `@artist` to the passed object, an object found using the string to search for it, or create a new artist object and set it to the `@artist` variable.  
 
 the `#add_genre` method will have similar functionality, taking in either a genre object, or a string, and either creating a new genre object, or searching for and returning an existing one, and adding it to the `@genres` array
 
